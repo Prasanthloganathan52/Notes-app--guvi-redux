@@ -1,0 +1,140 @@
+body {
+    background-color: #E3E8F8 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+}
+
+
+#accordionSidebar {
+    color: #203562;
+    background-color: #ffffff;
+}
+
+.rec-view-card {
+    height: 300px;
+}
+
+.each-note {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.content-bg {
+    border-radius: 16px;
+    opacity: 0.8;
+    background: var(--Secondary, #F5F5F5);
+    box-shadow: 2px 4px 16px 0px rgba(32, 53, 98, 0.47);
+}
+
+.content-bg-inp {
+    border: none !important;
+    opacity: 0.8;
+    background-color: #F5F5F5 !important;
+    width: 50vw !important;
+    color: var(--accent, #203562);
+    font-size: 32px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+.content-bg-inp:focus {
+    box-shadow: none !important;
+    ;
+}
+
+.rec-view-card {
+    width: 320px;
+    height: 280px;
+
+    border-radius: 16px;
+    background: var(--Secondary, #F5F5F5) !important;
+}
+
+.heading-content {
+    color: var(--accent, #203562);
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.heading-notes {
+    color: var(--accent, #203562);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.recent-view {
+    color: var(--accent, #203562);
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.card-head {
+    color: var(--accent, #203562);
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.note-card-content {
+    color: var(--Font, #303030);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+.elapsed-time div {
+    color: #000;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.active {
+    border-radius: 8px;
+    background: var(--accent, #203562);
+    color: var(--Secondary, #F5F5F5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sidebar-brand-text {
+    color: var(--accent, #203562);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 33.6px;
+}
+
+
+ .card-body {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+ }
+ 
+ .card-head {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+ 
+ .note-card-content {
+   flex-grow: 1;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: normal;
+ }
+ 
+ .elapsed-time {
+   text-align: right;
+ }
+ 
